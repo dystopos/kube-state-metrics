@@ -47,7 +47,7 @@ spec:
       serviceAccountName: kube-state-metrics
       containers:
       - name: kube-state-metrics
-        image: docker.io/dystopos/kube_stat_metrics_arm
+        image: docker.io/dystopos/kube_stat_metrics_arm:2.1
         ports:
         - name: metrics
           containerPort: 8080
